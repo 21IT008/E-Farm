@@ -143,7 +143,7 @@ const Payment = () => {
                         <Stepper activeStep={3}>
                             <div className="w-full bg-white">
 
-                                <form onSubmit={(e) => submitHandler(e)} autoComplete="off" className="flex flex-col justify-start gap-2 w-full mx-8 my-4 overflow-hidden">
+                                <form autoComplete="off" className="flex flex-col justify-start gap-2 w-full mx-8 my-4 overflow-hidden">
                                     <FormControl>
                                         <RadioGroup
                                             aria-labelledby="payment-radio-group"
